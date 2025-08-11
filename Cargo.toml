@@ -84,3 +84,7 @@ pr-run-mode = "plan"
 
 [workspace]
 exclude = ["tests/test-project"]
+
+[features]
+default = []
+use-native-certs = ["reqwest/rustls-tls-native-roots"]
